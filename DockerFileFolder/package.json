@@ -11,6 +11,12 @@
         "name": "Utsav Patel",
         "url": "https://github.com/up1512001"
     },
+    "repository": {
+        "url": "git://github.com/black1512/docker-repos.git."
+    },
+    "publishConfig": {
+        "@black1512:registry": "https://npm.pkg.github.com"
+    },
     "license": "MIT",
     "dependencies": {
         "config": "^3.3.6",
