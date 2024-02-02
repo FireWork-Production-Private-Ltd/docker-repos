@@ -23,5 +23,6 @@ jobs:
           push: true
           tags: black1512/demo1:latest
 
-icon: anchor
-color: orange
+branding:
+  icon: anchor
+  color: orange
