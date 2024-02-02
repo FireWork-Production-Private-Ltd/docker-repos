@@ -1,6 +1,6 @@
 {
     "name": "@black1512/docker-repos",
-    "version": "3.0.0",
+    "version": "3.0.1",
     "description": "This is package.json for learning how to push docker image to registry.",
     "main": "index.js",
     "scripts": {
