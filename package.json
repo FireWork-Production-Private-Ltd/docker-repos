@@ -1,6 +1,6 @@
 {
     "name": "@black1512/docker-repos",
-    "version": "2.0.0",
+    "version": "3.0.0",
     "description": "This is package.json for learning how to push docker image to registry.",
     "main": "index.js",
     "scripts": {
@@ -15,7 +15,7 @@
         "url": "git://github.com/black1512/docker-repos.git."
     },
     "publishConfig": {
-        "@black1512:registry": "https://npm.pkg.github.com"
+        "@black1512:registry": "https://ghcr.io"
     },
     "license": "MIT",
     "dependencies": {
