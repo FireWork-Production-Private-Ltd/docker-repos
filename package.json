@@ -1,0 +1,25 @@
+{
+    "name": "@black1512/docker-repos",
+    "version": "2.0.0",
+    "description": "This is package.json for learning how to push docker image to registry.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": {
+        "name": "Utsav Patel",
+        "url": "https://github.com/up1512001"
+    },
+    "repository": {
+        "url": "git://github.com/black1512/docker-repos.git."
+    },
+    "publishConfig": {
+        "@black1512:registry": "https://npm.pkg.github.com"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "config": "^3.3.6",
+        "express": "4.18.2"
+    }
+}
