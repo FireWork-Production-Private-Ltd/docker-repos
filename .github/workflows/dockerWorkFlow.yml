@@ -1,5 +1,4 @@
 name: Build and Push Docker Image to Docker Hub
-description: This will push package.json to docker registry as docker image.
 
 on: push
 jobs:
@@ -22,7 +21,3 @@ jobs:
           context: DockerFileFolder/
           push: true
           tags: black1512/demo1:latest
-
-branding:
-  icon: anchor
-  color: orange
