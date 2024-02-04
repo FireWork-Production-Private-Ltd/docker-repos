@@ -38,3 +38,4 @@ jobs:
 # pull this image by
 docker pull black1512/demo1:latest
 ```
+- need to configure `DOCKERHUB_USERNAME` and `DOCKERHUB_TOKEN` secrets for your repo.
